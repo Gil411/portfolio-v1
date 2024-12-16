@@ -43,13 +43,13 @@ document.getElementById('close-btn3').addEventListener('click', function(){
 
 // open page view 4
 document.getElementById('btn4').addEventListener('click', function(){
-    popup3.style.display = "block";
+    popup4.style.display = "block";
     body.style.overflow = "hidden"; // disable scrolling
 });
 
 // close page view 4
 document.getElementById('close-btn4').addEventListener('click', function(){
-    popup3.style.display = "none";
+    popup4.style.display = "none";
     body.style.overflowY = "visible";
 });
 
