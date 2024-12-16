@@ -2,6 +2,7 @@
 let popup1 = document.getElementById('popup1');
 let popup2 = document.getElementById('popup2');
 let popup3 = document.getElementById('popup3');
+let popup4 = document.getElementById('popup4');
 let body = document.getElementById('body');
 
 // open page view 1
@@ -36,6 +37,18 @@ document.getElementById('btn3').addEventListener('click', function(){
 
 // close page view 3
 document.getElementById('close-btn3').addEventListener('click', function(){
+    popup3.style.display = "none";
+    body.style.overflowY = "visible";
+});
+
+// open page view 4
+document.getElementById('btn4').addEventListener('click', function(){
+    popup3.style.display = "block";
+    body.style.overflow = "hidden"; // disable scrolling
+});
+
+// close page view 4
+document.getElementById('close-btn4').addEventListener('click', function(){
     popup3.style.display = "none";
     body.style.overflowY = "visible";
 });

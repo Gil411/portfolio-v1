@@ -383,7 +383,7 @@ header img{
     filter: invert(1) sepia(1) saturate(5) hue-rotate(10deg) brightness(1.2);
 }
 
-#close-btn2, #close-btn3{
+#close-btn2, #close-btn3, #close-btn4{
     background-image: url(./src/img/close_icon.png);
     background-color: transparent;
     background-position: center;
